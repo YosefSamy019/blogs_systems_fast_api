@@ -1,4 +1,8 @@
 
 uvicorn --version
 
+# main -> python file
+# app -> app variable that has FastAPI() object
+# --reload -> keep tracking the changes
 uvicorn main:app --reload
+uvicorn blog.main:app --reload
